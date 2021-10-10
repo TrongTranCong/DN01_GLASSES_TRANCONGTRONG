@@ -114,7 +114,7 @@ export default class StateGlasses extends Component {
                             <div className="col-6 ">
                                 <img className="w-50 " src="./glassesImage/model.jpg" alt="" />
                                 <img src={glassesDetail.url} style={{ width: '8rem' }} className="glass_Overlay_After" alt="..." />
-                                <div className="card w-50" style={{ marginLeft: '8.5rem', backgroundColor: '#f5450b78' }}>
+                                <div className="card w-50" style={{ marginLeft: '8.5rem', backgroundColor: '#ff7f505b',top:'-15%' }}>
                                     <h5 className="card-title">{glassesDetail.name}</h5>
                                     <p className="card-text">{glassesDetail.price}$</p>
 
